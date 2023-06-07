@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gracias por contactar</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="text-center">
+      <h1>¡Gracias por contactar, <span id="name"></span>!</h1>
+      <p>Su mensaje ha sido enviado con éxito.</p>
+      <img src="recursos/logo.jpg" alt="Success Image" class="img-fluid mt-4" width="25%">
+    </div>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const name = urlParams.get('name');
+    document.getElementById('name').textContent = name;
+  </script>
+</body>
+</html>

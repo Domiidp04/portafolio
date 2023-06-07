@@ -1,0 +1,229 @@
+.navbar {
+    padding: 1rem 0;
+  }
+  
+  .navbar-brand h2 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .navbar-nav .nav-link.active {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: aqua;
+  }
+  
+  .navbar-toggler {
+    border-color: aqua;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  .iniciales{
+    color: aliceblue;
+  }
+
+  .bg-custom {
+    background-color: #171c42;
+}
+
+.presentacion{
+    color:#fff;
+}
+
+span{
+    color:aqua
+}
+
+header{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.cuerpo{
+    padding-top: 80px;
+}
+
+.cv-section {
+  background-color: #0056b1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 600px;
+  padding: 100px 0;
+}
+
+.cv-content {
+  color: #ffffff;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #191c32;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #171c42;
+}
+
+
+
+
+
+
+
+
+
+  /* Estilos personalizados para el formulario de contacto */
+  .contact-section {
+    background-color: #171c42;
+  }
+
+  .contact-section h2 {
+    color: #fff;
+  }
+
+  .contact-section form .form-group label {
+    color: #fff;
+  }
+
+  .contact-section form .form-control {
+    background-color: #fff;
+    border-color: #ddd;
+    color: #555;
+  }
+
+  .contact-section form .form-control:focus {
+    border-color: #777;
+    box-shadow: none;
+  }
+
+  .contact-section form .btn-primary {
+    background-color: #007bfd;
+    border-color: #007bff;
+  }
+
+  .contact-section form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  .contact-section ul li i {
+    color: #007bff;
+    margin-right: 0.5rem;
+  }
+
+  li{
+    color:#fff;
+  }
+
+
+
+
+
+
+
+  .technologies-section {
+    background-color: #f8f9fa;
+    text-align: center;
+  }
+  
+  .section-title {
+    color: #333;
+  }
+  
+  .technology {
+    margin-bottom: 2rem;
+  }
+  
+  .technology i {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .technology h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .technology p {
+    color: #555;
+  }
+  
+
+  /* Estilos personalizados */
+
+/* Estilos del footer */
+footer {
+  background: #171c42;
+  color: #fff;
+}
+
+/* Estilos de las redes sociales en el footer */
+.social-media-text {
+  color: #ddd;
+  margin-left: 10px;
+}
+
+/* Estilos de los íconos de Font Awesome */
+i.fab {
+  font-size: 20px;
+  color: #ddd;
+  transition: color 0.3s ease-in-out;
+}
+
+i.fab a:hover {
+  color: #fff;
+}
+
+.footer ul.list-unstyled li a {
+  color: #ddd;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer ul.list-unstyled li a:hover {
+  color: #fff;
+}
+
+
+
+
+  
+  @media (max-width: 750px) {
+    .navbar-nav .nav-link {
+      margin-left: 0;
+      margin-top: 0.5rem;
+    }
+  }
+  
